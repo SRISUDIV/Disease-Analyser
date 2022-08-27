@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p style="color:red">Select patent details from the list.</p>
+
+<select id="mySelect" onchange="myFunction()">
+<option value="Mis divya S">Mis divya S</option>
+  <option value="Mr.S.Sanjay">Mr.S.Sanjay</option>
+  <option value="Mr S.Baskar">Mr S.Baskar</option>
+  <option value="Mis D.chitra">Mis D.chitra</option>
+  <option value="Mr.Ramu">Mr.Ramu</option>
+</select>
+
+<a href="pt1.JPG"><h1> Patient Detail Report Form </h1></a>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("mySelect").value;
+  document.getElementById("demo").innerHTML = "You selected Patient Name: " + x;
+}
+</script>
+<div>
+<h1>
+<button type="button" onclick="alert('Confirm Patient Successfully ...!')">Confirm Patient</button>
+ </h1>
+ </div>
+</div>
+<br>
+<p>click link given below for video call </p>
+
+<p><a href="https://meetings.dialpad.com/">call Patient</a></p>
+<a href="asd.html"><b>submit Precption for Patients</b></a>
+</body>
+
+</html>
